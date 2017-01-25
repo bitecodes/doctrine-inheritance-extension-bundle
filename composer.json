@@ -1,0 +1,21 @@
+{
+    "name": "bitecodes/doctrine-inheritance-extension-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle will implement the bitecodes/doctrine-inheritance-extension into symfony",
+    "license": "MIT",
+    "require": {
+        "symfony/symfony": "^2.7|^3.0",
+        "bitecodes/doctrine-inheritance-extension": "*"
+    },
+    "authors": [
+        {
+            "name": "Thomas Uhlmann",
+            "email": "thomas@bite.codes"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BiteCodes\\DoctrineInheritanceExtensionBundle\\": ""
+        }
+    }
+}
